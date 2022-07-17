@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>{% block title %}{% endblock title %}</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="static/assets/img/favicon.png" rel="icon">
+  <link href="static/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="static/assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="static/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="static/assets/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <div id="topbar" class="d-flex align-items-center fixed-top">
+    <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
+      <div class="align-items-center d-none d-md-flex">
+        <i class="bi bi-clock"></i> 24*7 Available
+      </div>
+      <div class="d-flex align-items-center">
+        <i class="bi bi-phone"></i> Call us now +91 6969696969
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <a href="index.html" class="logo me-auto"><img src="static/assets/img/logo.png" alt=""></a>
+      
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto " href="/">Home</a></li>
+
+          <li><a class="nav-link scrollto" href="/slotbooking">Available Beds</a></li>
+          <li><a class="nav-link scrollto" href="/trigers">Operations</a></li>
+
+{% if current_user.is_authenticated  and current_user.hcode %}
+
+          <li class="dropdown"><a href="/login"><span>Welcome {{current_user.email}}</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+
+              <li><a href="/addhospitalinfo">Add Hospital Data</a></li>
+              <li><a href="/logout">Logout</a></li>
+      
+           
+            </ul>
+          </li>
+{% elif current_user.is_authenticated and current_user.srfid %}
+           <li class="dropdown"><a href="/login"><span>Welcome {{current_user.email}}</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+
+              <li><a href="/slotbooking">Book Slot</a></li>
+              <li><a href="/logout">Logout</a></li>
+      
+           
+            </ul>
+          </li>
+{% else %}
+          <li class="dropdown"><a href="/login"><span>Sign In</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="/login">User Login</a></li>
+              <li><a href="/hospitallogin">Hospital Login</a></li>
+              <li><a href="/admin">Admin Login</a></li>
+           
+            </ul>
+          </li>
+
+{% endif %}
+          </ul> 
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <a href="/slotbooking" class="appointment-btn scrollto"><span class="d-none d-md-inline">Bed Booking Slot</span> Book Now</a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+                <!-- Slide 1 -->
+                <div class="carousel-item active" style="background-image: url(static/assets/img/slide-2.jpg)">
+                  <div class="container">
+                    <h2>QUESTIONS?</h2>
+                    <p>
+                      CLICK BELOW TO CHECK OUT FREQUENTLY ASKED QUESTIONS ABOUT COVID-19 AND RADIANT WEB SERVICE
+                    </p>
+                    <a href="#faq" class="btn-get-started scrollto">READ MORE</a>
+                  </div>
+                </div>
+        
+                <!-- Slide 2 -->
+                <div class="carousel-item" style="background-image: url(static/assets/img/slide-3.jpg)">
+                  <div class="container">
+                    <h2>INTRESTED TO KNOW MORE ABOUT US</h2>
+                    <p>CLICK BELOW TO CHECK OUT ABOUT THIS PROJECT</p>
+                    <a href="#about" class="btn-get-started scrollto">FAQ</a>
+                  </div>
+                </div>
+        
+                <!-- Slide 3 -->
+                <div class="carousel-item" style="background-image: url(static/assets/img/slide-1.jpg)">
+                  <div class="container">
+                    <h2>TESTIMONIALS</h2>
+                    <p>CLICK BELOW TO HEAR ABOUT US FROM OUR USERS</p>
+                    <a href="#testimonials" class="btn-get-started scrollto">Read More</a>
+                  </div>
+                </div>
+
+       
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+  {% block body %}
+
+  {% endblock body %}
+  
+   <!-- ======= Featured Services Section ======= -->
+   <section id="featured-services" class="featured-services">
+    <div class="container" data-aos="fade-up">
+
+      <div class="row">
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon"><i class="fas fa-people-arrows"></i></div>
+            <h4 class="title"><a href="https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/coronavirus-social-distancing-and-self-quarantine">MAINTAIN SOCIAL DISTANCING</a></h4>
+            <p class="description">Please Maintain Social Distancing of 2 meters from the people</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon"><i class="fas fa-head-side-mask"></i></div>
+            <h4 class="title"><a href="https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/about-face-coverings.html">WEAR MASK </a></h4>
+            <p class="description">Please wear Mask all the time when outside the house</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon"><i class="fas fa-hands-wash"></i></div>
+            <h4 class="title"><a href="https://www.fda.gov/drugs/information-drug-class/qa-consumers-hand-sanitizers-and-covid-19">SANITIZE HANDS</a></h4>
+            <p class="description">Keep your hands Santized and avoid touching nose,eyes and ears</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon"><i class="fas fa-viruses"></i></div>
+            <h4 class="title"><a href="https://covid19.karnataka.gov.in/new-page/Government%20Orders/en">FOLLOW COVID RULES</a></h4>
+            <p class="description">Please follow the covid rules and regulations set by the govermnemt.BE SAFE</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Featured Services Section -->
+  
+  
+
+<!-- ======= Frequently Asked Questioins Section ======= -->
+<section id="faq" class="faq section-bg">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-title">
+      <h2>Frequently Asked Questioins</h2>
+      <p>Here are Frequently asked Questions Regarding COVID-19 and Radiant website</p>
+    </div>
+
+    <ul class="faq-list">
+
+      <li>
+        <div data-bs-toggle="collapse" class="collapsed question" href="#faq1"> What is Covid-19?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+        <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+          <p>
+            COVID-19 is a disease caused by a virus called SARS-CoV-2. Most people with COVID-19 have mild symptoms, but some people can become severely ill. Although most people with COVID-19 get better within weeks of illness, some people experience post-COVID conditions. 
+            Post-COVID conditions are a wide range of new, returning, or ongoing health problems people can experience more than four weeks after first being infected with the virus that causes COVID-19.
+          </p>
+        </div>
+      </li>
+
+      <li>
+        <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">How long do COVID-19 symptoms take to appear? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+        <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+          <p>
+            COVID symptoms can appear anywhere from two to 14 days after someone is exposed to the virus. Anyone exhibiting symptoms should get tested for COVID-19. Some people may never experience symptoms, though they can still spread the virus
+          </p>
+        </div>
+      </li>
+
+
+      <li>
+        <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">How long do Covid symptoms last? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+        <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+          <p>
+            Those with a mild case of COVID-19 usually recover within one to two weeks. For severe cases, recovery can take six weeks or more, and there may be lasting damage to the heart, kidneys, lungs and brain
+          </p>
+        </div>
+      </li>
+
+      <li>
+        <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">What are the symptoms of Covid-19? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+        <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+          <p>
+            Signs and symptoms include respiratory symptoms and include fever, cough and shortness of breath. In more severe cases, infection can cause pneumonia, severe acute respiratory syndrome and sometimes death. 
+          </p>
+        </div>
+      </li>
+
+
+      <li>
+        <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">Does Booking Bed through Radiant website incurs any charges? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+        <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+          <p>
+            Booking Beds Through Radiant website is free of cost and doesnt incurs any charges.
+          </p>
+        </div>
+      </li>
+
+      
+
+      <li>
+        <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">What are Requirements to book Bed Slot Through Radiant? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+        <div id="faq6" class="collapse" data-bs-parent=".faq-list">
+          <p>
+            Should be tested for COVID-19 and should have Government generated SRF-ID,AADHAR CARD,Phone-Number and Email.
+          </p>
+        </div>
+      </li>
+
+    </ul>
+
+  </div>
+</section><!-- End Frequently Asked Questioins Section -->
+
+
+
+<!-- ======= About Us Section ======= -->
+<section id="about" class="about">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-title">
+      <h2>About Us</h2>
+      <p>This Website is Designed By Vishwajit.H and Amogh.S.Bharadwaj, students of DSATM </p>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6" data-aos="fade-right">
+        <img src="static/assets/img/about.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-5 pt-3 pt-lg-0 content" data-aos="fade-left">
+        <h3>SOME INSIGHT ABOUT THIS </h3>
+        <p class="fst-italic">
+          THIS PROJECT AIMS TO SOLVE THE REAL WORLD PROBLEM OF BED SLOT ALLOTMENT TAKING
+          CONSIDERATION OF PATIENTS SRF-ID, 
+          BEDS AVAILABLE IN HOSPITAL TO BOOK THE BED.
+          WE CREATE LOGIN FOR 3 TYPES OF USERS 
+        </p>
+        <ul>
+          <li><i class="bi bi-check-circle"></i>USER WHO WANT TO VIEW/BOOK BEDS(PATIENT)</li>         
+          <li><i class="bi bi-check-circle"></i>USER WHO WANTS TO UPDATE BED(HOSPITAL)</li>
+          <li><i class="bi bi-check-circle"></i>USER WHO MANAGES (ADMIN)</li>
+        </ul>
+        <p>
+          IN DATABASE WE PERFORM STORAGE OF USERS THROUGH AUTHENTICATION,
+          CRUD OPERATIONS(CREATION.RENAMING,UPDATION,DELETION) AND ALSO
+          TRIGGERS TO AUTOMATICALLY UPDATE THE DATABASE
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section><!-- End About Us Section -->
+
+
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Testimonials</h2>
+          <p>TESTIMONIALS FROM FEW OF OUR FAVORITE USERS</p>
+        </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  This website is truly Marvellous 
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="static/assets/img/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Dan Peña</h3>
+                <h4> Businessman &amp; Founder</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  this website is soo easy to understand and helpful
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="static/assets/img/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Virat Kohli</h3>
+                <h4>Cricketer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  This website is Ground-Breaking!
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="static/assets/img/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>Alia Bhatt</h3>
+                <h4>Actress</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+
+
+
+</main><!-- End #main -->
+
+<footer id="footer">
+  <div class="footer-top">  
+    
+    
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>RADIANT</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+       
+        Designed by <a href="https://amoghvishwajit.in/">AMOGH AND VISHWAJIT</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="static/assets/vendor/purecounter/purecounter.js"></script>
+  <script src="static/assets/vendor/aos/aos.js"></script>
+  <script src="static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="static/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="static/assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="static/assets/js/main.js"></script>
+
+</body>
+
+</html>
