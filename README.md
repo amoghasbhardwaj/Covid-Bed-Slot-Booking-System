@@ -1,11 +1,11 @@
 <a id="readme-top"></a>
 
-[![Contributors][https://img.shields.io/badge/contributors-3-blue]](https://github.com/amoghasbhardwaj/Covid-Bed-Slot-Booking-System/graphs/contributors)
-[![Forks][https://img.shields.io/badge/forks-5-brightgreen]](https://github.com/amoghasbhardwaj/Covid-Bed-Slot-Booking-System/network/members)
-[![Stargazers][https://img.shields.io/badge/stars-10-yellow]](https://github.com/amoghasbhardwaj/Covid-Bed-Slot-Booking-System/stargazers)
-[![Issues][https://img.shields.io/badge/issues-3-orange]](https://github.com/amoghasbhardwaj/Covid-Bed-Slot-Booking-System/issues)
-[![MIT License][https://img.shields.io/badge/license-MIT-lightgrey]](https://github.com/amoghasbhardwaj/Covid-Bed-Slot-Booking-System/blob/main/LICENSE.txt)
-[![LinkedIn][https://img.shields.io/badge/LinkedIn-Profile-blue]](https://www.linkedin.com/in/amoghasbhardwaj/)
+[![Contributors](https://img.shields.io/badge/contributors-3-blue)](https://github.com/amoghasbhardwaj/Covid-Bed-Slot-Booking-System/graphs/contributors)
+[![Forks](https://img.shields.io/badge/forks-5-brightgreen)](https://github.com/amoghasbhardwaj/Covid-Bed-Slot-Booking-System/network/members)
+[![Stargazers](https://img.shields.io/badge/stars-10-yellow)](https://github.com/amoghasbhardwaj/Covid-Bed-Slot-Booking-System/stargazers)
+[![Issues](https://img.shields.io/badge/issues-3-orange)](https://github.com/amoghasbhardwaj/Covid-Bed-Slot-Booking-System/issues)
+[![MIT License](https://img.shields.io/badge/license-MIT-lightgrey)](https://github.com/amoghasbhardwaj/Covid-Bed-Slot-Booking-System/blob/main/LICENSE.txt)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue)](https://www.linkedin.com/in/amoghasbhardwaj/)
 
 
 <br />
@@ -152,7 +152,7 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 
 ### Contributors
 <a href="https://github.com/vishwjit22154">
-  <img src="https://avatars.githubusercontent.com/u/12345678?v=4" alt="Vishwajit" width="40" height="40" style="border-radius: 50%;" />
+  <img src="https://avatars.githubusercontent.com/u/74697139?v=4" alt="Vishwajit" width="40" height="40" style="border-radius: 50%;" />
 </a>
 <span>Vishwajit</span>
 
