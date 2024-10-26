@@ -1,23 +1,18 @@
 <a id="readme-top"></a>
 
-[![Contributors](https://img.shields.io/badge/contributors-3-blue)](https://github.com/amoghasbhardwaj/Covid-Bed-Slot-Booking-System/graphs/contributors)
-[![Forks](https://img.shields.io/badge/forks-5-brightgreen)](https://github.com/amoghasbhardwaj/Covid-Bed-Slot-Booking-System/network/members)
-[![Stargazers](https://img.shields.io/badge/stars-10-yellow)](https://github.com/amoghasbhardwaj/Covid-Bed-Slot-Booking-System/stargazers)
-[![Issues](https://img.shields.io/badge/issues-3-orange)](https://github.com/amoghasbhardwaj/Covid-Bed-Slot-Booking-System/issues)
-[![MIT License](https://img.shields.io/badge/license-MIT-lightgrey)](https://github.com/amoghasbhardwaj/Covid-Bed-Slot-Booking-System/blob/main/LICENSE.txt)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue)](https://www.linkedin.com/in/amoghasbhardwaj/)
-
-
+[![Contributors](https://img.shields.io/badge/contributors-1-blue)](https://github.com/amoghasbhardwaj/Covid-Bed-Slot-Booking-System/graphs/contributors)
+[![Forks](https://img.shields.io/badge/forks-1-brightgreen)](https://github.com/amoghasbhardwaj/Covid-Bed-Slot-Booking-System/network/members)
+[![Stargazers](https://img.shields.io/badge/stars-4-yellow)](https://github.com/amoghasbhardwaj/Covid-Bed-Slot-Booking-System/stargazers)
+[![Issues](https://img.shields.io/badge/issues-0-orange)](https://github.com/amoghasbhardwaj/Covid-Bed-Slot-Booking-System/issues)
 <br />
 <div align="center">
   <h3 align="center">COVID Bed Slot Booking System</h3>
   <p align="center">
     A web-based application for managing COVID bed bookings efficiently.
     <br />
-    <a href="https://github.com/amoghasbhardwaj/Covid-Bed-Slot-Booking-System"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/amoghasbhardwaj/Covid-Bed-Slot-Booking-System/blob/main/PA6%20USN13%20AND%20USN51(AMOGH%20S%20AND%20VISHWAJIT%20H).pdf"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/amoghasbhardwaj/Covid-Bed-Slot-Booking-System">View Demo</a>
     ·
     <a href="https://github.com/amoghasbhardwaj/Covid-Bed-Slot-Booking-System/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
@@ -33,10 +28,7 @@
     <li><a href="#getting-started">Getting Started</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#contributors">Contributors</a></li>
   </ol>
 </details>
 
@@ -50,7 +42,6 @@ The COVID Bed Slot Booking System is an innovative web application designed to s
 - **User Registration**: Create user login credentials using SRFID for secure access.
 - **Bed Selection**: Users can select available beds from a list of hospitals.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
@@ -80,7 +71,6 @@ The COVID Bed Slot Booking System is an innovative web application designed to s
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apache/apache-original.svg" alt="Apache" width="40" height="40"/>
   </a>
 </div>
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### ER Diagram
 <img width="532" alt="Screenshot 2024-10-26 at 1 28 51 PM" src="https://github.com/user-attachments/assets/ad10802f-3e67-4d4e-81a7-d07ccb4768c9">
@@ -126,7 +116,6 @@ To get a local copy of the project up and running, follow these steps:
 	```sh
 	python app.py
 
-
 ### Usage
 
 After setting up the application, you can access it via your web browser. Use the following credentials to test the application:
@@ -145,16 +134,11 @@ After setting up the application, you can access it via your web browser. Use th
 - Bed selection feature
 - Implement hospital suggestions based on user location
 - Add severity-based bed allocation
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LICENSE -->
-### License
-Distributed under the MIT License. See LICENSE.txt for more information.
 
 ### Contributors
 <a href="https://github.com/vishwjit22154">
-  <img src="https://avatars.githubusercontent.com/u/74697139?v=4" alt="Vishwajit" width="40" height="40" style="border-radius: 50%;" />
+  <img src="https://avatars.githubusercontent.com/u/74697139?v=4" alt="Vishwajit" width="40" height="40" style="border-radius: 100%;" />
 </a>
+<br />
 <span>Vishwajit</span>
-
-<!-- CONTACT -->
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
