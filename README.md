@@ -53,14 +53,14 @@ The COVID Bed Slot Booking System is an innovative web application designed to s
 
 ### Built With
 
-* ![HTML](https://img.shields.io/badge/HTML-FF5733)
-* ![CSS](https://img.shields.io/badge/CSS-00A3E0)
-* ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E)
-* ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C)
-* ![Python](https://img.shields.io/badge/Python-3776AB)
-* ![Flask](https://img.shields.io/badge/Flask-000000)
-* ![MySQL](https://img.shields.io/badge/MySQL-4479A1)
-* ![Apache](https://img.shields.io/badge/Apache-D22128)
+* [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML" width="40" height="40"/>](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS" width="40" height="40"/>](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" width="40" height="40"/>](https://getbootstrap.com/)
+* [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/>](https://www.python.org/)
+* [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg" alt="Flask" width="40" height="40"/>](https://flask.palletsprojects.com/)
+* [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="MySQL" width="40" height="40"/>](https://www.mysql.com/)
+* [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apache/apache-original.svg" alt="Apache" width="40" height="40"/>](https://httpd.apache.org/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
