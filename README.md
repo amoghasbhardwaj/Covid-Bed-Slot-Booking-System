@@ -5,13 +5,22 @@
   <h3 align="center">COVID Bed Slot Booking System</h3>
   <p align="center">
     A web-based application for managing COVID bed bookings efficiently.
-    <br />
-	  <p align="center">
-   [![Contributors](https://img.shields.io/badge/contributors-1-blue)](https://github.com/amoghasbhardwaj/Covid-Bed-Slot-Booking-System/graphs/contributors)
-[![Forks](https://img.shields.io/badge/forks-1-brightgreen)](https://github.com/amoghasbhardwaj/Covid-Bed-Slot-Booking-System/network/members)
-[![Stargazers](https://img.shields.io/badge/stars-4-yellow)](https://github.com/amoghasbhardwaj/Covid-Bed-Slot-Booking-System/stargazers)
-[![Issues](https://img.shields.io/badge/issues-0-orange)](https://github.com/amoghasbhardwaj/Covid-Bed-Slot-Booking-System/issues)
-</p>
+  </p>
+  <p align="center">
+    <a href="https://github.com/amoghasbhardwaj/Covid-Bed-Slot-Booking-System/graphs/contributors">
+      <img src="https://img.shields.io/badge/contributors-1-blue" alt="Contributors" />
+    </a>
+    <a href="https://github.com/amoghasbhardwaj/Covid-Bed-Slot-Booking-System/network/members">
+      <img src="https://img.shields.io/badge/forks-1-brightgreen" alt="Forks" />
+    </a>
+    <a href="https://github.com/amoghasbhardwaj/Covid-Bed-Slot-Booking-System/stargazers">
+      <img src="https://img.shields.io/badge/stars-4-yellow" alt="Stars" />
+    </a>
+    <a href="https://github.com/amoghasbhardwaj/Covid-Bed-Slot-Booking-System/issues">
+      <img src="https://img.shields.io/badge/issues-0-orange" alt="Issues" />
+    </a>
+  </p>
+</div>
     <a href="https://github.com/amoghasbhardwaj/Covid-Bed-Slot-Booking-System/blob/main/PA6%20USN13%20AND%20USN51(AMOGH%20S%20AND%20VISHWAJIT%20H).pdf"><strong>Explore the docs »</strong></a>
     <br />
     <br />
