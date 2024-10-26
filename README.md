@@ -20,10 +20,11 @@
       <img src="https://img.shields.io/badge/issues-0-orange" alt="Issues" />
     </a>
   </p>
-</div>
-    <a href="https://github.com/amoghasbhardwaj/Covid-Bed-Slot-Booking-System/blob/main/PA6%20USN13%20AND%20USN51(AMOGH%20S%20AND%20VISHWAJIT%20H).pdf"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
+  <p align="center">
+    <a href="https://github.com/amoghasbhardwaj/Covid-Bed-Slot-Booking-System/blob/main/PA6%20USN13%20AND%20USN51(AMOGH%20S%20AND%20VISHWAJIT%20H).pdf">
+      <strong>Explore the docs »</strong>
+    </a>
+    <br /><br />
     ·
     <a href="https://github.com/amoghasbhardwaj/Covid-Bed-Slot-Booking-System/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
