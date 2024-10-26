@@ -53,14 +53,14 @@ The COVID Bed Slot Booking System is an innovative web application designed to s
 
 ### Built With
 
-* [![HTML][HTML.com]][HTML-url]
-* [![CSS][CSS.com]][CSS-url]
-* [![JavaScript][JavaScript.com]][JavaScript-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![Python][Python.org]][Python-url]
-* [![Flask][Flask.palletsprojects.com]][Flask-url]
-* [![MySQL][MySQL.com]][MySQL-url]
-* [![Apache][Apache.org]][Apache-url]
+* ![HTML](https://img.shields.io/badge/HTML-FF5733)
+* ![CSS](https://img.shields.io/badge/CSS-00A3E0)
+* ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E)
+* ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C)
+* ![Python](https://img.shields.io/badge/Python-3776AB)
+* ![Flask](https://img.shields.io/badge/Flask-000000)
+* ![MySQL](https://img.shields.io/badge/MySQL-4479A1)
+* ![Apache](https://img.shields.io/badge/Apache-D22128)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
