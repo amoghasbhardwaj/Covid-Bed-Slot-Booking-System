@@ -1,8 +1,8 @@
 <a id="readme-top"></a>
-
-<br />
 <div align="center">
-  <h3 align="center">COVID Bed Slot Booking System</h3>
+<h1 align="center">
+  COVID Bed Slot Booking System 🏥
+</h1>
   <p align="center">
     A web-based application for managing COVID bed bookings efficiently.
   </p>
@@ -33,7 +33,7 @@
 </div>
 
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Table of Contents 📖</summary>
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#built-with">Built With</a></li>
@@ -44,18 +44,18 @@
   </ol>
 </details>
 
-## About The Project
+## About The Project 🚀
 
 The COVID Bed Slot Booking System is an innovative web application designed to streamline the bed booking process for hospitals during the COVID-19 pandemic. By automating the booking process, this system reduces the manual workload and enhances efficiency.
 
-### Key Features
-- **Admin Dashboard**: Login with admin credentials to manage hospitals and users.
-- **Hospital Management**: Add hospitals and their credentials, including bed counts and locations.
-- **User Registration**: Create user login credentials using SRFID for secure access.
-- **Bed Selection**: Users can select available beds from a list of hospitals.
+### Key Features 🌟
+- **Admin Dashboard**: 👤 Manage hospitals and users with admin credentials.
+- **Hospital Management**: 🏥 Add hospitals along with their credentials, including bed counts and locations.
+- **User Registration**: 🔐 Create secure user login credentials using SRFID for access.
+- **Bed Selection**: 🛏️ Users can easily select available beds from a list of hospitals.
 
 
-### Built With
+## Built With 🛠️
 
 <div align="center">
   <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
@@ -91,22 +91,22 @@ The COVID Bed Slot Booking System is an innovative web application designed to s
 ### Schema Diagram
 <img width="478" alt="Screenshot 2024-10-26 at 1 28 35 PM" src="https://github.com/user-attachments/assets/e3133415-4fe7-4598-b2c7-28432249cd74">
 
-### Work flow chart
+### Workflow
 
 <img width="175" alt="Screenshot 2024-10-26 at 1 29 18 PM" src="https://github.com/user-attachments/assets/6a7118b7-10b3-4c2b-b2f4-a4c143b0a524">
 
 
-## Getting Started
+## Getting Started 🏃‍♂️‍➡️
 
 To get a local copy of the project up and running, follow these steps:
 
-### Prerequisites
+### Prerequisites🔍
 
 - Python 3.9
 - MySQL
 - Apache Web Server
 
-### Installation
+### Installation 🔨
 
 1. Clone the repo
    ```sh
@@ -128,7 +128,7 @@ To get a local copy of the project up and running, follow these steps:
 	```sh
 	python app.py
 
-### Usage
+## Usage ∵
 
 After setting up the application, you can access it via your web browser. Use the following credentials to test the application:
 
@@ -136,9 +136,7 @@ After setting up the application, you can access it via your web browser. Use th
 2.	Hospital Login: Use hospital credentials to add data and manage beds.
 3.	User Login: Use user credentials to book beds.
 
-<br/>
-
-### Roadmap
+## Roadmap 🛣️
 
 - Admin login and management
 - Hospital registration
@@ -146,11 +144,12 @@ After setting up the application, you can access it via your web browser. Use th
 - Bed selection feature
 - Implement hospital suggestions based on user location
 - Add severity-based bed allocation
-<!-- LICENSE -->
 
-### Contributors
-<a href="https://github.com/vishwjit22154">
-  <img src="https://avatars.githubusercontent.com/u/74697139?v=4" alt="Vishwajit" width="40" height="40" style="border-radius: 100%;" />
-</a>
-<br />
-<span>Vishwajit</span>
+## Contributors🧑‍🤝‍🧑
+<p align="center">
+  <a href="https://github.com/vishwjit22154">
+    <img src="https://avatars.githubusercontent.com/u/74697139?v=4" alt="Vishwajit" width="80" height="80" style="border-radius: 50%; object-fit: cover;" />
+  </a>
+  <br />
+  <span>Vishwajit</span>
+</p>
